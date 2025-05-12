@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 
-WIT_AI_TOKEN = 'PWQ3FZ3XQLXMJCX2TT2RJGMMQZX74HYL'
+WIT_AI_TOKEN = 'YOUR_WIT_AI_SERVER_ACCESS_TOKEN'
 
 @app.route("/voice", methods=['GET', 'POST'])
 def voice():
